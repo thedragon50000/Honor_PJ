@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9f85a132a2bfca94c9f5ea80553ff3d2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Chenyuluoyan
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b7fef7f90330c3b41a013a8d1d323625, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

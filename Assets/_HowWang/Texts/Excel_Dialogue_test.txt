@@ -1,0 +1,7 @@
+[Padko]
+/color:white//size:60//speed:0.1/test
+/color:fuchsia//size:80//speed:1/123
+
+/color:aqua//size:60//click//speed:0.1/321
+[Me]
+/color:blue//size:60//speed:0.5/7777777
