@@ -8,8 +8,10 @@ using Zenject;
 
 public class Tester_sc : MonoBehaviour
 {
-    [Inject]
-    public DialogManager dialogManager;
+    [Inject] public DialogManager dialogManager;
+
+    [Inject] public AudioManager audioManager;
+    
     public bool bIsTalking = false;
 
     [Inject]

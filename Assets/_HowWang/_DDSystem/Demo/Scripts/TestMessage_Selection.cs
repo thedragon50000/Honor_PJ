@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Doublsb.Dialog;
+using Zenject;
 
 public class TestMessage_Selection : MonoBehaviour
 {
-    public DialogManager DialogManager;
+    [Inject] DialogManager DialogManager;
 
     private void Awake()
     {
@@ -25,7 +26,7 @@ public class TestMessage_Selection : MonoBehaviour
 
     private void Check_Correct()
     {
-        if(DialogManager.Result == "Correct")
+        if (DialogManager.Result == "Correct")
         {
             var dialogTexts = new List<DialogData>();
 

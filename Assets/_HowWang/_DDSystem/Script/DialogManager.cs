@@ -80,7 +80,6 @@ namespace Doublsb.Dialog
             //     }
             // });
             
-            // todo: 不確定修好沒
             var _observable = click.Chunk(click.ThrottleFirst(TimeSpan.FromMilliseconds(300)))
                 .Scan(-1, (count, _) => count + 1);
             _observable.Where(c => c >= 1).Subscribe(_ =>

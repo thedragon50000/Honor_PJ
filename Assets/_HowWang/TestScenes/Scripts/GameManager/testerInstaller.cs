@@ -4,13 +4,13 @@ using Zenject;
 
 public class testerInstaller : MonoInstaller
 {
-    public AudioManager audio;
+    // public AudioManager audio;
     public DialogManager dialog;
 
     public override void InstallBindings()
     {
         Container.Bind<Tester_sc>().FromNewComponentOnNewGameObject().AsSingle();
-        Container.BindInstance(audio).AsSingle();
+        // Container.BindInstance(audio).AsSingle();
         Container.BindInstance(dialog).AsSingle();
         
         
